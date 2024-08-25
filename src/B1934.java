@@ -15,15 +15,10 @@ public class B1934 {
     int gcd = gcd(list[i][0], list[i][1]);
     int lcm = list[i][0] * list[i][1];
 
-    int answer = lcm / gcd;
-    System.err.println(answer);
+    long answer = (long)lcm / gcd;
+    System.out.println(answer);
 
     }
-    // for(int i = list[0] ; i<)
-    
-    
-
-
   }
   public static int gcd(int a, int b) {
     while (b != 0) {

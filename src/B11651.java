@@ -23,7 +23,7 @@ public class B11651 {
     
   Arrays.sort(p, comparator);
   for(int i=0 ; i< n ; i++) {
-    System.err.println(p[i][0] + " " + p[i][1]);
+    System.out.println(p[i][0] + " " + p[i][1]);
   }
 
   }
