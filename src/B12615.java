@@ -1,6 +1,4 @@
 import java.util.*;
-
-import ch.sort;
 public class B12615 {
 
   public static void main(String[] args) {
@@ -22,24 +20,13 @@ public class B12615 {
         nextLength = length[1];
         longLength = length[2];
 
-        // while (true) { // 커지면 끝남
-         
          if(smallLength + nextLength <= longLength) {
-          tSize = smallLength + nextLength + (smallLength + nextLength -1);
-          // 10 10 21
-          // 10 10 19
-          // 3 4 5
-          // 3 
-          // 1 1 100
-          // 1 2 3
-          // 1 2 2 = 3, 
-            // break;
+ 
          }
          if(smallLength + nextLength > longLength) {
           tSize =  smallLength + nextLength + longLength;
          }
-          
-        // }
+
         // et, t 비교
     int et = length[0] * 3;
     if(et > tSize) System.out.println(et);

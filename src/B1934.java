@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class B1934 {
 
-  public  static void main(String[] args){
+  public  static void B1934(String[] args){
     Scanner s = new Scanner(System.in);
     int n = s.nextInt();
     int[][] list = new int[n][2];
